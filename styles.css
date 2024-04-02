@@ -1,0 +1,413 @@
+
+
+/*Banner*/
+html,
+body {
+  margin: 0;
+}
+
+/*header first content*/
+.name{
+    margin: center;
+}
+/*header open*/
+.header {
+    width:auto;
+	height: 100px;
+	background: #6096B4;
+	border-bottom-width:3px;
+	border-bottom-color:#4896B4;
+	border-bottom-style:solid;
+}
+.title{
+    margin: 0;
+	text-align: center;
+	background: #4896B4;
+	font-size: 40px;
+}
+
+
+.navcon {
+  float: right;
+  margin-top: 10px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  
+}
+.navMenu a {
+  color: #f6f4e6;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: 80px;
+}
+
+.navMenu a:hover {
+  color: #fddb3a;
+}
+
+
+/*main*/
+.maincontent {
+	width:100%;
+	height:100%;
+	float:left;
+	position:absolute;
+	background-image: linear-gradient(#EEE9DA, #BDCDD6, #93BFCF);
+    background-repeat: repeat;
+    background-size: 100% 100%;
+}
+
+/*Log in*/
+
+.login {
+	text-align:center;
+	font-size: 20px;
+}
+.logbtn{
+    
+}
+.back{
+    text-align: center;
+    font-size: 20px;
+}
+.login input{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.back button {
+  background-color: rgb(120, 118, 118);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+}
+button:hover {
+  opacity: 0.8;
+}
+
+/*Table*/
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 50,
+  'wght' 800,
+  'GRAD' 10,
+  'opsz' 48;
+  font-size: 50px;
+}
+ th, td {
+  border: solid;
+  border-color: #96D4D4;
+}
+
+
+.btn{
+	background: transparent;
+	width: fit-content;
+	margin: 0;
+}
+
+.btn-primary {
+  background-color: #6096B4;
+  color: #6096B4;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #00bfff;
+  cursor: pointer;
+}
+
+
+
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;  /* Preferred icon size */
+  display: inline-block;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+}
+
+.material-icons2 {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 50px;  /* Preferred icon size */
+  display: inline-block;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+}
+
+/*Form*/
+.aptinf{
+    
+}
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+
+/*Contact*/
+.section-header {
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px 0;
+  font: 300 60px , sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.section-txt {
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px 0;
+  font: 300 60px , sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.contact-wrapper {
+  margin: 3px auto;
+  padding: 20px;
+  max-width: 840px;
+  text-align: center;
+  background-color: #4094b2;
+}
+
+/* Location, Phone, Email Section */
+.contact-list {
+  list-style-type: none;
+  margin-left: -30px;
+  padding-right: 20px;
+}
+
+.list-item {
+  line-height: 4;
+  color: #aaa;
+}
+
+.contact-text {
+  font: 300 18px "Lato", sans-serif;
+  letter-spacing: 1.9px;
+  font-size: 25px;
+  color: #bbb;
+}
+
+.place {
+  margin-left: 62px;
+}
+
+.phone {
+  margin-left: 56px;
+}
+
+.gmail {
+  margin-left: 53px;
+}
+
+.contact-text a {
+  color: #bbb;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+/*bottons with PDF*/
+
+.pdf-button-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+}
+
+.float-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.float-buttons button {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/*Search Format*/
+.form-select,
+.form-control,
+.btn,
+.search-button {
+  height: auto;
+  min-height: 40px;
+}
+
+.search-button {
+  padding: 6px 12px;
+  font-size: 14px;
+}
+
+/*log in */
+.login {
+  background-color: #4896D4;
+  padding: 20px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.login form {
+  max-width: 400px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #4896B4;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.login p {
+  margin-bottom: 15px;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+.login button {
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: #4896B4;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.login button.cancel {
+  background-color: #E0E0E0;
+}
+
+.login button:hover {
+  background-color: #24657F;
+}
+
+.login button.cancel:hover {
+  background-color: #BDBDBD;
+}
+
+
+
+.float-buttons:first-child {
+  margin-top: 0; /* Remove margin for the first button container */
+}
+
+.float-buttons button {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+/*Tables*/
+.table-container {
+  background-color: #f8f9fa;
+  overflow: auto;
+}
+ .rounded-table-container {
+    display: inline-block;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #4896B4;
+  }
+  
+  .rounded-table {
+    width: auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .rounded-table th,
+  .rounded-table td {
+    padding: 10px;
+  }
+  
+  .rounded-table thead th:first-child {
+    border-top-left-radius: 10px;
+  }
+  
+  .rounded-table thead th:last-child {
+    border-top-right-radius: 10px;
+  }
+  
+  .rounded-table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+  }
+  
+  .rounded-table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+  }
+    
+  
